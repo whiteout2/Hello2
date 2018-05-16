@@ -1,0 +1,53 @@
+> Executing task: g++ -g -std=c++17 -v -Wall hello.cpp -o hello.exe <
+
+Using built-in specs.
+COLLECT_GCC=g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-pc-cygwin/6.4.0/lto-wrapper.exe
+Target: i686-pc-cygwin
+Configured with: /cygdrive/i/szsz/tmpp/gcc/gcc-6.4.0-5.i686/src/gcc-6.4.0/configure --srcdir=/cygdrive/i/szsz/tmpp/gcc/gcc-6.4.0-5.i686/src/gcc-6.4.0 --prefix=/usr --exec-prefix=/usr --localstatedir=/var --sysconfdir=/etc --docdir=/usr/share/doc/gcc --htmldir=/usr/share/doc/gcc/html -C --build=i686-pc-cygwin --host=i686-pc-cygwin --target=i686-pc-cygwin --without-libiconv-prefix --without-libintl-prefix --libexecdir=/usr/lib --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --enable-bootstrap --enable-__cxa_atexit --with-dwarf2 --with-arch=i686 --with-tune=generic --disable-sjlj-exceptions --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-graphite --enable-threads=posix --enable-libatomic --enable-libcilkrts --enable-libgomp --enable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --enable-libada --disable-symvers --with-gnu-ld --with-gnu-as --with-cloog-include=/usr/include/cloog-isl --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible
+Thread model: posix
+gcc version 6.4.0 (GCC)
+COLLECT_GCC_OPTIONS='-g' '-std=c++1z' '-v' '-Wall' '-o' 'hello.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-pc-cygwin/6.4.0/cc1plus.exe -quiet -v -idirafter /usr/lib/gcc/i686-pc-cygwin/6.4.0/../../../../include/w32api -idirafter /usr/lib/gcc/i686-pc-cygwin/6.4.0/../../../../i686-pc-cygwin/lib/../../include/w32api hello.cpp -quiet -dumpbase hello.cpp -mtune=generic -march=i686 -auxbase hello -g -Wall -std=c++1z -version -o /cygdrive/c/Users/RG_Admin/AppData/Local/Temp/ccIo2ka2.s
+GNU C++14 (GCC) version 6.4.0 (i686-pc-cygwin)
+        compiled by GNU C version 6.4.0, GMP version 6.1.2, MPFR version 3.1.6-p1, MPC version 1.0.3, isl version 0.15
+warning: MPC header version 1.0.3 differs from library version 1.1.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include"
+ignoring nonexistent directory "/usr/lib/gcc/i686-pc-cygwin/6.4.0/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/i686-pc-cygwin/6.4.0/../../../../i686-pc-cygwin/include"
+ignoring duplicate directory "/usr/lib/gcc/i686-pc-cygwin/6.4.0/../../../../i686-pc-cygwin/lib/../../include/w32api"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i686-pc-cygwin/6.4.0/include/c++
+ /usr/lib/gcc/i686-pc-cygwin/6.4.0/include/c++/i686-pc-cygwin
+ /usr/lib/gcc/i686-pc-cygwin/6.4.0/include/c++/backward
+ /usr/lib/gcc/i686-pc-cygwin/6.4.0/include
+ /usr/include
+ /usr/lib/gcc/i686-pc-cygwin/6.4.0/../../../../include/w32api
+End of search list.
+GNU C++14 (GCC) version 6.4.0 (i686-pc-cygwin)
+        compiled by GNU C version 6.4.0, GMP version 6.1.2, MPFR version 3.1.6-p1, MPC version 1.0.3, isl version 0.15
+warning: MPC header version 1.0.3 differs from library version 1.1.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: f40aabacce10edaeb64927a71661135e
+hello.cpp: In function ‘int main()’:
+hello.cpp:6:9: warning: unused variable ‘x’ [-Wunused-variable]
+     int x = 10;
+         ^
+hello.cpp:7:9: warning: unused variable ‘y’ [-Wunused-variable]
+     int y = 20;
+         ^
+hello.cpp:10:9: warning: unused variable ‘z’ [-Wunused-variable]
+     int z = 666;
+         ^
+COLLECT_GCC_OPTIONS='-g' '-std=c++1z' '-v' '-Wall' '-o' 'hello.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-pc-cygwin/6.4.0/../../../../i686-pc-cygwin/bin/as.exe -v -o /cygdrive/c/Users/RG_Admin/AppData/Local/Temp/ccJuqYkF.o /cygdrive/c/Users/RG_Admin/AppData/Local/Temp/ccIo2ka2.s
+GNU assembler version 2.29.1 (i686-pc-cygwin) using BFD version (GNU Binutils) 2.29.1.20171006
+COMPILER_PATH=/usr/lib/gcc/i686-pc-cygwin/6.4.0/:/usr/lib/gcc/i686-pc-cygwin/6.4.0/:/usr/lib/gcc/i686-pc-cygwin/:/usr/lib/gcc/i686-pc-cygwin/6.4.0/:/usr/lib/gcc/i686-pc-cygwin/:/usr/lib/gcc/i686-pc-cygwin/6.4.0/../../../../i686-pc-cygwin/bin/
+LIBRARY_PATH=/usr/lib/gcc/i686-pc-cygwin/6.4.0/:/usr/lib/gcc/i686-pc-cygwin/6.4.0/../../../../i686-pc-cygwin/lib/:/usr/lib/gcc/i686-pc-cygwin/6.4.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-g' '-std=c++1z' '-v' '-Wall' '-o' 'hello.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-pc-cygwin/6.4.0/collect2.exe -plugin /usr/lib/gcc/i686-pc-cygwin/6.4.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/i686-pc-cygwin/6.4.0/lto-wrapper.exe -plugin-opt=-fresolution=/cygdrive/c/Users/RG_Admin/AppData/Local/Temp/ccIdFwlF.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --wrap _Znwj --wrap _Znaj --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwjRKSt9nothrow_t --wrap _ZnajRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --large-address-aware --tsaware -o hello.exe /usr/lib/gcc/i686-pc-cygwin/6.4.0/../../../crt0.o /usr/lib/gcc/i686-pc-cygwin/6.4.0/crtbegin.o -L/usr/lib/gcc/i686-pc-cygwin/6.4.0 -L/usr/lib/gcc/i686-pc-cygwin/6.4.0/../../../../i686-pc-cygwin/lib -L/usr/lib/gcc/i686-pc-cygwin/6.4.0/../../.. /cygdrive/c/Users/RG_Admin/AppData/Local/Temp/ccJuqYkF.o -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/i686-pc-cygwin/6.4.0/../../../default-manifest.o /usr/lib/gcc/i686-pc-cygwin/6.4.0/crtend.o
+COLLECT_GCC_OPTIONS='-g' '-std=c++1z' '-v' '-Wall' '-o' 'hello.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
+
+Terminal will be reused by tasks, press any key to close it.
