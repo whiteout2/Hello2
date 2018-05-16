@@ -2,6 +2,9 @@
 
 int main ()
 {
+    // branch1
+    int branch1 = 999;
+    
     //qqq
     int x = 10;
     int y = 20;
