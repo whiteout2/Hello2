@@ -4,7 +4,9 @@ int main ()
 {
     // branch1
     int branch1 = 999;
-    
+
+    int git2 = 555;
+
     //qqq
     int x = 10;
     int y = 20;
